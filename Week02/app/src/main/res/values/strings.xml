@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">W02-27184</string>
+    <string name="angka1">Enter 1st number</string>
+    <string name="angka2">Enter 2nd number</string>
+    <string name="result">Result..</string>
+    <string name="btnTambah">+</string>
+    <string name="btnKurang">-</string>
+    <string name="btnKali">*</string>
+    <string name="btnBagi">/</string>
+    <string name="label_angka1">Angka 1 : </string>
+    <string name="label_angka2">Angka 2 : </string>
+</resources>

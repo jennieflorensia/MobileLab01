@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">W04_27184</string>
+    <string name="isian">Teks yang akan dikirim</string>
+    <string name="url">Halaman Website</string>
+    <string name="kirim">Kirim</string>
+    <string name="browse">Browse</string>
+</resources>
