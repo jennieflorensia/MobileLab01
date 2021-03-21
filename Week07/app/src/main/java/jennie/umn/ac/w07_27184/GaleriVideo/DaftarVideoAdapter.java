@@ -79,12 +79,12 @@ public class DaftarVideoAdapter extends RecyclerView.Adapter<DaftarVideoAdapter.
         public void onClick(View v) {
             mPosisi = getLayoutPosition();
             mSumberVideo = mDaftarVideo.get(mPosisi);
-            Intent detilInten = new Intent(mContext,
+            Intent detailIntent = new Intent(mContext,
                     DetilVideoActivity.class);
             Bundle bundle = new Bundle();
             bundle.putSerializable("DetilVideo",mSumberVideo);
-            detilInten.putExtras(bundle);
-            mContext.startActivity(detilInten);
+            detailIntent.putExtras(bundle);
+            mContext.startActivity(detailIntent);
         }
     }
 }
