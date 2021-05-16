@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="jennie.umn.ac.week10_27184">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Week10_27184">
+        <service
+            android:name=".Tuto3.CustomBoundService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <service
+            android:name=".Tuto3.CustomService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Tuto3.IntentServiceActivity" />
+        <activity android:name=".Tuto2.AsyncTaskLoaderActivity" />
+        <activity android:name=".Tuto1.AsynctaskActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Tuto3.SimpelIntentService"
+            tools:ignore="MissingClass" />
+        <service
+            android:name=".Tuto3.CustomService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".Tuto3.CustomBoundService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+</manifest>
